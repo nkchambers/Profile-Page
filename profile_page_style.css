@@ -1,0 +1,248 @@
+#container {
+    width: 1250px;
+    margin: 0px auto;
+}
+.nav {
+    background-color: rgb(65, 57, 57);
+    display: flex;
+    align-items: center;
+}
+.nav h1 {
+    color: white;
+    margin-left: 150px;
+    font-family: helvetica;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: -20px;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-family: helvetica;
+    padding-left: 30px;
+}
+.nav-links li button {
+    border-color: rgb(65, 57, 57);
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(64, 187, 224);
+    margin-left: 330px;
+    padding: 5px 10px;
+}
+.main-content {
+    margin: 0px auto;
+    width: 1250px;
+    height: 800px;
+    display: flex;
+}
+.col-left {
+    flex: 2;
+}
+.user-card {
+    width: 550px;
+    height: 350px;
+    margin: 0px auto;
+}
+.user-card #user-banner {
+    width: 554px;
+    height: 75px;
+    background-color: rgb(64, 169, 187);
+    margin-top: 20px;
+}
+.user-card #user-banner img {
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 75px;
+    height: 75px;
+}
+.user-info {
+    width: 550px;
+    height: 250px;
+    border: lightgray solid 2px;
+}
+.user-info > h2 {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: helvetica;
+}
+.user-info > img {
+    width: 15px;
+    height: 25px;
+    margin-left: 30px;
+}
+.user-info img, p {
+    display: inline;
+    position: relative;
+    bottom: 10px;
+}
+.user-info p {
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.user-skills > p {
+    position: relative;
+    bottom: 125px;
+    font-family: helvetica;
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.user-edit > img {
+    width: 18px;
+    height: 18px;
+    margin-left: 30px;
+}
+.user-edit img, h6 {
+    display: inline;
+    position: relative;
+    bottom: 100px;
+}
+.user-edit h6 {
+    font-family: helvetica;
+    font-size: 18px;
+    padding-left: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+}
+.education {
+    width: 550px;
+    height: 250px;
+    margin: 0px auto;
+}
+.education #ed-banner {
+    width: 554px;
+    height: 50px;
+    background-color: rgb(65, 57, 57);
+}
+#ed-banner > h2 {
+    color: white;
+    font-family: helvetica;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.ed-content {
+    width: 550px;
+    height: 200px;
+    border: lightgray solid 2px;
+}
+.ed-content > h4 {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-family: helvetica;
+    font-size: 20px;
+}
+.ed-content > p {
+    padding-left: 30px;
+    font-family: helvetica;
+    font-size: 16px;
+    color: lightslategrey;
+    font-weight: bold;
+}
+.ed-content > h5 {
+    padding-left: 30px;
+    font-family: helvetica;
+    font-size: 18px;
+}
+.col-right {
+    flex: 1;
+}
+.requests {
+    width: 310px;
+    height: 225px;
+    margin-left: -100px;
+}
+.requests #request-banner {
+    width: 304px;
+    height: 50px;
+    background-color: rgb(65, 57, 57);
+}
+#request-banner > h4 {
+    color: white;
+    font-family: helvetica;
+    padding-top: 15px;
+    text-align: center;
+}
+.request-content {
+    width: 300px;
+    height: 150px;
+    border: lightgray solid 2px;
+}
+.todd > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.phil > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.todd > p {
+    margin-left: 5px;
+    padding-right: 18px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.phil > p {
+    margin-left: 5px;
+    padding-right: 25px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.connections {
+    width: 310px;
+    height: 550px;
+    margin-left: -100px;
+}
+.connections #connect-banner {
+    width: 304px;
+    height: 50px;
+    background-color: rgb(65, 57, 57);
+}
+#connect-banner > h4 {
+    color: white;
+    font-family: helvetica;
+    padding-top: 15px;
+    text-align: center;
+}
+.connect-content {
+    width: 300px;
+    height: 390px;
+    border: lightgray solid 2px;
+}
+.connect-content > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.connect-content > p {
+    padding-left: 20px;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 16px;
+}
+#view-more {
+    width: 300px;
+    height: 42px;
+    border: lightgray solid 2px;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+}
